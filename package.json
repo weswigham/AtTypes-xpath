@@ -1,0 +1,18 @@
+{
+  "dependencies": {},
+  "description": "TypeScript definitions for xpath",
+  "devDependencies": {},
+  "directories": {},
+  "license": "MIT",
+  "main": "",
+  "name": "@types/xpath",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weswigham/AtTypes-xpath"
+  },
+  "scripts": {},
+  "typings": "xpath.d.ts",
+  "version": "0.0.1"
+}
