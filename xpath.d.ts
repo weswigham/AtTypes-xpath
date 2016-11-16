@@ -60,7 +60,7 @@ export function selectWithResolver(xpathText: string, contextNode: Node, resolve
  * @param result If non-null, xpath *may* reuse this XPathResult object instead of creating a new one.  However, it is not required to do so.
  * @return XPathResult object containing the result of the expression.
  */
-export function evaluate(xpathText: string, contextNode: Node, resolver?: XPathNSResolver | null, resultType?: number | null, result?: XPathResult | null): XPathResult;
+export function evaluate(xpathText: string, contextNode: Node, resolver?: XPathNSResolver | null, resultType?: number, result?: XPathResult | null): XPathResult;
 
 /**
  * Creates a `select` function that uses the given namespace prefix to URI mappings when evaluating queries.
@@ -181,7 +181,7 @@ export interface XPathExpression {
      * @param resultType
      * @param result
      */
-    evaluate(contextNode: Node, resultType?: number | null, result?: XPathResult | null): XPathResult;
+    evaluate(contextNode: Node, resultType?: number, result?: XPathResult | null): XPathResult;
 }
 
 /**
